@@ -1,0 +1,180 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #0d1117;
+  color: #e6edf3;
+  line-height: 1.6;
+}
+
+/* Header */
+.site-header {
+  background: #161b22;
+  padding: 20px 0;
+  border-bottom: 1px solid #30363d;
+}
+
+.header-content {
+  text-align: center;
+}
+
+.name {
+  font-size: 2.2rem;
+  color: #58a6ff;
+}
+
+.tagline {
+  font-size: 1.1rem;
+  color: #c9d1d9;
+  margin-top: 5px;
+}
+
+.main-nav {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.nav-link {
+  color: #e6edf3;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #58a6ff;
+}
+
+/* Sections */
+.section {
+  padding: 60px 0;
+}
+
+.section-alt {
+  background: #161b22;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 30px;
+  color: #58a6ff;
+}
+
+/* Cards Grid */
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #21262d;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(88, 166, 255, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-icon {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.card-title {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  color: #58a6ff;
+}
+
+.card-description {
+  font-size: 0.95rem;
+  color: #c9d1d9;
+}
+
+/* Skills Grid */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.skill-category {
+  background: #21262d;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.skill-category-title {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #58a6ff;
+}
+
+.skill-list {
+  list-style: none;
+}
+
+.skill-item {
+  margin-bottom: 8px;
+  color: #c9d1d9;
+}
+
+/* Contact Section */
+.contact-content {
+  text-align: center;
+}
+
+.contact-text {
+  margin-bottom: 20px;
+  font-size: 1rem;
+  color: #c9d1d9;
+}
+
+.contact-button {
+  display: inline-block;
+  padding: 12px 25px;
+  background: #58a6ff;
+  color: #0d1117;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.contact-button:hover {
+  background: #1f6feb;
+}
+
+/* Footer */
+.site-footer {
+  background: #161b22;
+  text-align: center;
+  padding: 15px 0;
+  border-top: 1px solid #30363d;
+}
+
+.footer-text {
+  font-size: 0.9rem;
+  color: #8b949e;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .name {
+    font-size: 1.8rem;
+  }
+  .section-title {
+    font-size: 1.5rem;
+  }
+}
